@@ -73,6 +73,15 @@ div{
     right: initial;
     left: 10%;
 }
+.content{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
 /*.container{*/
 /*    position: relative;*/
 /*    height: 100vh;*/
@@ -80,16 +89,10 @@ div{
 /*}*/
 /*div{*/
 /*    display: flex;*/
-/*}*/
-/*.center-align, .right-align, .left-align{*/
-/*    justify-content: center;*/
 /*    align-items: center;*/
 /*}*/
-/*.right-align{*/
-/*    justify-content: flex-end;*/
-/*}*/
-/*.left-align{*/
-/*    justify-content: flex-start;*/
+/*.center-align{*/
+/*    justify-content: center;*/
 /*}*/
 /*.first{*/
 /*    width: 100%;*/
@@ -126,6 +129,17 @@ div{
 /*    width: 20%;*/
 /*    height: 20%;*/
 /*    justify-content: center;*/
+/*    background-color: white;*/
+/*}*/
+/*.x{*/
+/*    margin-right: 20px*/
+/*}*/
+/*.y{*/
+/*    margin-left: 20px;*/
+/*}*/
+/*.content{*/
+/*    margin-left: 20px;*/
+/*    margin-right: 20px;*/
 /*}*/
 /*.first-column{*/
 /*    width: 25vw;*/
@@ -137,6 +151,11 @@ div{
 /*    height: 100vh;*/
 /*    flex-direction: column;*/
 /*}*/
+
+
+
+
+
 
 /*.container{*/
 /*    display: grid;*/
@@ -167,6 +186,7 @@ div{
 /*    grid-area: second;*/
 /*    background-color: red;*/
 /*    justify-content: space-between;*/
+/*    padding: 0 30px;*/
 /*}*/
 /*.third{*/
 /*    grid-area: third;*/
@@ -180,6 +200,7 @@ div{
 /*    grid-area: fifth;*/
 /*    justify-content: space-between;*/
 /*    background-color: #937393;*/
+/*    padding: 0 30px;*/
 /*}*/
 /*.gap{*/
 /*    width: 5vw;*/
@@ -189,4 +210,6 @@ div{
 /*    width: 20%;*/
 /*    height: 20%;*/
 /*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background-color: white;*/
 /*}*/
