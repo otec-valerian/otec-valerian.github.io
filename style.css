@@ -1,0 +1,192 @@
+/*.container{*/
+/*    position: relative;*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*}*/
+/*div{*/
+/*    float: left;*/
+/*    position: relative;*/
+/*    text-align: center;*/
+/*}*/
+/*.center-align *{*/
+/*    transform: translate(-50%,-50%);*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    position: absolute;*/
+/*}*/
+/*.right-align *{*/
+/*    transform: translateY(-50%);*/
+/*    right: 0;*/
+/*    top: 50%;*/
+/*    position: absolute;*/
+/*}*/
+/*.left-align *{*/
+/*    transform: translateY(-50%);*/
+/*    left: 0;*/
+/*    top: 50%;*/
+/*    position: absolute;*/
+/*}*/
+/*.first{*/
+/*    width: 20%;*/
+/*    height: 80%;*/
+/*    background-color: rebeccapurple;*/
+/*}*/
+/*.second{*/
+/*    width: 70%;*/
+/*    height: 20%;*/
+/*    background-color: red;*/
+/*}*/
+/*.third{*/
+/*    width: 70%;*/
+/*    height: 60%;*/
+/*    background-color: yellow;*/
+/*}*/
+/*.fourth{*/
+/*    width: 20%;*/
+/*    height: 20%;*/
+/*    background-color: blue;*/
+/*}*/
+/*.fifth{*/
+/*    width: 70%;*/
+/*    height: 20%;*/
+/*    background-color: #937393;*/
+/*}*/
+/*.gap-long{*/
+/*    width: 5%;*/
+/*    height: 80%;*/
+/*}*/
+/*.gap-short{*/
+/*    width: 5%;*/
+/*    height: 20%;*/
+/*}*/
+/*.x, .y{*/
+/*    width: 20%;*/
+/*    height: 20%;*/
+/*    position: absolute;*/
+/*    transform: translateY(-50%);*/
+/*    top: 50%;*/
+/*    left: initial;*/
+/*    background-color: aliceblue;*/
+/*    right: 10%;*/
+/*}*/
+/*.x{*/
+/*    right: initial;*/
+/*    left: 10%;*/
+/*}*/
+/*.container{*/
+/*    position: relative;*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*}*/
+/*div{*/
+/*    display: flex;*/
+/*}*/
+/*.center-align, .right-align, .left-align{*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.right-align{*/
+/*    justify-content: flex-end;*/
+/*}*/
+/*.left-align{*/
+/*    justify-content: flex-start;*/
+/*}*/
+/*.first{*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    background-color: rebeccapurple;*/
+/*}*/
+/*.second{*/
+/*    width: 100%;*/
+/*    height: 20%;*/
+/*    background-color: red;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.third{*/
+/*    width: 100%;*/
+/*    height: 60%;*/
+/*    background-color: yellow;*/
+/*}*/
+/*.fourth{*/
+/*    width: 100%;*/
+/*    height: 20%;*/
+/*    background-color: blue;*/
+/*}*/
+/*.fifth{*/
+/*    width: 100%;*/
+/*    height: 20%;*/
+/*    justify-content: space-between;*/
+/*    background-color: #937393;*/
+/*}*/
+/*.gap{*/
+/*    width: 5vw;*/
+/*    height: 100vh;*/
+/*}*/
+/*.x, .y{*/
+/*    width: 20%;*/
+/*    height: 20%;*/
+/*    justify-content: center;*/
+/*}*/
+/*.first-column{*/
+/*    width: 25vw;*/
+/*    height: 100vh;*/
+/*    flex-direction: column;*/
+/*}*/
+/*.second-column{*/
+/*    width: 70vw;*/
+/*    height: 100vh;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.container{*/
+/*    display: grid;*/
+/*    grid-template-rows: 20vh 60vh 20vh;*/
+/*    grid-template-columns: 20vw 5vw 75vw;*/
+/*    grid-template-areas: "first gap second "*/
+/*                        "first gap third"*/
+/*                        "fourth gap fifth";*/
+/*}*/
+/*div{*/
+/*    display: flex;*/
+/*}*/
+/*.center-align, .right-align, .left-align{*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+/*.right-align{*/
+/*    justify-content: flex-end;*/
+/*}*/
+/*.left-align{*/
+/*    justify-content: flex-start;*/
+/*}*/
+/*.first{*/
+/*    grid-area: first;*/
+/*    background-color: rebeccapurple;*/
+/*}*/
+/*.second{*/
+/*    grid-area: second;*/
+/*    background-color: red;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.third{*/
+/*    grid-area: third;*/
+/*    background-color: yellow;*/
+/*}*/
+/*.fourth{*/
+/*    grid-area: fourth;*/
+/*    background-color: blue;*/
+/*}*/
+/*.fifth{*/
+/*    grid-area: fifth;*/
+/*    justify-content: space-between;*/
+/*    background-color: #937393;*/
+/*}*/
+/*.gap{*/
+/*    width: 5vw;*/
+/*    height: 100vh;*/
+/*}*/
+/*.x, .y{*/
+/*    width: 20%;*/
+/*    height: 20%;*/
+/*    justify-content: center;*/
+/*}*/
